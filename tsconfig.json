@@ -28,9 +28,9 @@
     "noUncheckedIndexedAccess": false
   },
   "include": [
-    "src/**/*",
-    "test/**/*"
-  ],
+    "**/*",
+    "../test/**/*"
+, "../tsconfig.json"  ],
   "exclude": [
     "node_modules",
     "dist"

@@ -12,7 +12,7 @@ import { GroupsModule } from './groups/groups.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MongooseModule.forRoot(process.env.DATABASE_URL),
+    MongooseModule.forRoot(process.env.DATABASE_URL as string),
     AuthModule,
     UsersModule,
     GroupsModule,
